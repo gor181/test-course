@@ -47,6 +47,31 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
+
+---
+## A simple test
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 340973b24f
+xp: 50
+skills: 1
+```
+
+Who is the best?
+
+`@possible_answers`
+- [Goran is the best]
+- Sascha is the best
+- Ferdi is the best
+
+`@hint`
+
+`@feedbacks`
+- Dude that's right!
+- Oh my... How could you miss?
+- Really, the capuccino / chess guy?
+
 ---
 ## More movies
 
